@@ -1,0 +1,46 @@
+<idea-plugin>
+    <id>com.tyrelsouza.demo-may19</id>
+    <name>Stackoverflow Demo</name>
+    <vendor email="tyrel@tyrelsouza.com" url="http://tyrel.dev">TyrelDev</vendor>
+
+    <description><![CDATA[
+    Stack Overflow Search for issues and stuff
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="Sample Tools Yo"
+                secondary="true"
+                icon="AllIcons.General.Modified" anchor="right"
+                factoryClass="Tools.TSToolWindowFactory"
+        />
+    </extensions>
+
+    <actions>
+<!--        <action-->
+<!--                id="StackOverflow.AskQuestionAction.ToolsMenu"-->
+<!--                class="StackOverflow.AskQuestionAction"-->
+<!--                text="Ask a Question on Stack Overflow"-->
+<!--                description="asdf">-->
+<!--            <add-to-group group-id="ToolsMenu" anchor="last" />-->
+<!--        </action>-->
+<!--        <action-->
+<!--          id="StackOverflow.Search.Editor"-->
+<!--          class="StackOverflow.SearchAction"-->
+<!--          text="Search on Stack Overflow"-->
+<!--          description="Search on Stack Overflow">-->
+<!--            <add-to-group group-id="EditorPopupMenu" anchor="last"/>-->
+<!--        </action>-->
+<!--        <action-->
+<!--          id="StackOverflow.Search.Console"-->
+<!--          class="StackOverflow.SearchAction"-->
+<!--          text="Search on Stack Overflow"-->
+<!--          description="Search on Stack Overflow">-->
+<!--            <add-to-group group-id="ConsoleEditorPopupMenu" anchor="last"/>-->
+<!--        </action>-->
+    </actions>
+</idea-plugin>
